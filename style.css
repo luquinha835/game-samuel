@@ -1,0 +1,24 @@
+body{
+background:#1c1c1c;
+color:white;
+font-family:Arial;
+text-align:center;
+}
+
+canvas{
+background:#3c7a3c;
+border:5px solid black;
+margin-top:10px;
+}
+
+button{
+padding:10px;
+margin:5px;
+font-size:16px;
+cursor:pointer;
+}
+
+#ui{
+font-size:18px;
+margin-top:10px;
+}
