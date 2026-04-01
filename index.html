@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<title>Ultra Simulador de Inseto</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🐜 Ultra Simulador de Vida de Inseto</h1>
+
+<div id="menu">
+<button onclick="start('formiga')">🐜 Formiga</button>
+<button onclick="start('besouro')">🪲 Besouro</button>
+<button onclick="start('abelha')">🐝 Abelha</button>
+<button onclick="start('mosca')">🪰 Mosca</button>
+</div>
+
+<div id="ui">
+Vida: <span id="vida">100</span> |
+Comida: <span id="food">0</span> |
+Nível: <span id="nivel">1</span> |
+Tempo: <span id="time">Dia</span>
+</div>
+
+<canvas id="game"></canvas>
+
+<script src="game.js"></script>
+</body>
+</html>
